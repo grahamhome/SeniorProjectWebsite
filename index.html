@@ -1,42 +1,27 @@
 <!doctype html>
 <html lang="en">
 <head>
-<!--That's so meta (meta information to ensure content will correctly adapt to screen size)-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="UTF-8">
 <title>Kicking Butts</title>
-<!--Bootstrap CSS-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- Bootstrap JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!--Custom CSS-->
-<link rel="stylesheet" type="text/css" href="css/header_and_nav.css">
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/body_header_nav.css">
+<link rel="stylesheet" type="text/css" href="css/content.css">
 </head>
 <body>
-	<div class="container-fluid header">
-		<div class="row ">
-			<div class="col-xs-8 headerTitle">Kicking Butts</span></div>
-			<div class="col-xs-4"><img id="headerImg" src="images/header.png" alt="Kicking Butts"></div>
-		</div>
+	<div id="header">
+		<div id="siteTitle">Kicking Butts</div>
 	</div>
-<nav class="navbar">
-	<div class="container-fluid navbar-container">
-		<ul class="nav navbar-nav">
-			<li class="navItem"><a href="project_plan.html">Project Plan</a></li>
-			<li class="navItem"><a href="metrics.html">Project Metrics</a></li>
-			<li class="navItem"><a href="four_ups.html">Four-Up Charts</a></li>
-			<li class="navItem"><a href="time_tracking.html">Time Tracking</a></li>
+	<nav id="navbar">
+		<ul id="navLinks">
+			<li class="navItem"><a class="navLink" href="project_plan.html">Project Plan</a></li>
+			<li class="navItem"><a class="navLink" href="metrics.html">Project Metrics</a></li>
+			<li class="navItem"><a class="navLink" href="four_ups.html">Four-Up Charts</a></li>
+			<li class="navItem"><a class="navLink" href="time_tracking.html">Time Tracking</a></li>
 		</ul>
-	</div>
-</nav>
-<div class="container-fluid" id="main">
-	<div class="row">
-		<div class="col-md-3 offset-md-3 contentBox">
-			<div class="col postTitle">Project Synopsis</div>
-			<div class="col postContent">
+	</nav>
+	<div id="main">
+		<div class="contentBox">
+			<div class="postContent">
+				<div class="postTitle">Project Synopsis</div>
 				<p class="postText">
 					Cigarette smoking rates in the US have dropped significantly over the past few decades with help from massive pushes from the private and public sector to educate the public on the dangers of smoking. However, 17% of the US population still smokes cigarettes, remaining unresponsive to current efforts. The Smoking Cessation application will be meant to reach this population in a way that has not been available previously. The application will use empirically supported Cognitive-Behavioral Therapy (CBT) techniques to identify habits and triggers of individual smokers and provide ‘just in time’ treatment to assist overcoming cravings.
 				</p><br>
@@ -48,17 +33,14 @@
 				</p>
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-3 offset-md-3 content-box">
-			<div class="col postTitle">Team Members</div>
-			<div class="col postContent">
+		<div class="contentBox">
+			<div class="postContent">
+				<div class="postTitle">Team Members</div>
 				<p class="postText">
 					This project’s team members are Austin Cowan, Graham Home, Holly Hastings, and Justin Haddock. The project coach is Kal Rabb, former VP of engineering for Xerox, who has been delivering software and products for the past 40 years. The project sponsor is Dr. Joseph Baschnagel, who holds a doctorate degree in clinical psychology with a research emphasis on tobacco addiction. He is trained in CBT and has experience applying it in clinical work.
 				</p>
 			</div>
 		</div>
 	</div>
-</div>
 </body>
 </html>

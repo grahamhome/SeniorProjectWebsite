@@ -1,0 +1,23 @@
+div.contentBox {
+	width: 60%;
+	margin: 20px auto;
+	border-radius: 25px;
+	background-color: #D9CAB3;
+}
+
+div.postContent {
+	padding: 10px;
+}
+
+div.postTitle {
+	width:100%;
+	font-size: 24px;
+	font-weight: bold;
+	color: #5E0B15;
+	margin-bottom: 10px;
+	border-bottom: solid 2px #5E0B15;
+}
+
+p.postText {
+	line-height: 150%;
+}
