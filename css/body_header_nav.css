@@ -17,6 +17,13 @@ div#siteTitle {
 	margin: 10px 10px;
 }
 
+img#logo {
+	height: 65px;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+
 nav#navbar {
 	background-color: #BC8034;
 }
