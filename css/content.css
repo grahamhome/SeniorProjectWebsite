@@ -22,3 +22,9 @@ div.postTitle {
 p.postText {
 	line-height: 150%;
 }
+
+img.postImage {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
