@@ -28,3 +28,9 @@ img.postImage {
 	display: block;
 	margin: auto;
 }
+
+ul.postList {
+	list-style-type: square;
+	line-height: 150%;
+	padding-left: 15px;
+}
