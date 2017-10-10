@@ -19,6 +19,17 @@ div.postTitle {
 	border-bottom: solid 2px #5E0B15;
 }
 
+a.postLink {
+	color: #5E0B15;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+a.postLink:hover {
+	color: black;
+}
+
 p.postText {
 	line-height: 150%;
 }
